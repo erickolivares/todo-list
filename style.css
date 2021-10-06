@@ -1,0 +1,39 @@
+body {
+  background-color: #b6f2a9;
+  font-family: "Verdana";
+}
+
+input,
+.todo {
+  display: flex;
+  cursor: pointer;
+  background-color: #fff;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 20px;
+  width: 180px;
+}
+input:hover svg,
+.todo:hover svg {
+  display: block;
+  fill: #ccc;
+}
+input:active svg,
+.todo:active svg {
+  display: block;
+  fill: green;
+}
+
+p {
+  margin: 5px;
+}
+
+svg {
+  width: 15px;
+  display: none;
+}
+
+span {
+  display: flex;
+  padding: 5px;
+}
